@@ -1,0 +1,20 @@
+package baekjoon;
+
+import java.util.*;
+
+public class lotto {
+
+	public static void main(String[] args) {
+		int lotto1 = (int)(Math.random() * 45 + 1);
+		int lotto2 = (int)(Math.random() * 45 + 1);
+		int lotto3 = (int)(Math.random() * 45 + 1);
+		int lotto4 = (int)(Math.random() * 45 + 1);
+		int lotto5 = (int)(Math.random() * 45 + 1);
+		int lotto6 = (int)(Math.random() * 45 + 1);
+		
+		for(int i=1; i<6;i++) {
+		System.out.println(lotto1 + " " + lotto2 + " " + lotto3 + " " + lotto4 + " " + lotto5 + " " + lotto6);
+		}
+	}
+
+}

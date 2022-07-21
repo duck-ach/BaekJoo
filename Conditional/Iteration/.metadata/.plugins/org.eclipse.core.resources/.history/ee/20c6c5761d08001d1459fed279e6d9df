@@ -1,0 +1,20 @@
+package baekjoon;
+
+import java.io.IOException;
+import java.io.InputStream;
+
+public class BufferedReader {
+
+	public static void main(String[] args) throws IOException {
+		
+		InputStream inputstream = System.in;
+		
+		byte [] a = new byte [10];
+		inputstream.read(a);
+		
+		for(byte val : a) {
+			System.out.println(val);
+		}
+		
+	}
+}

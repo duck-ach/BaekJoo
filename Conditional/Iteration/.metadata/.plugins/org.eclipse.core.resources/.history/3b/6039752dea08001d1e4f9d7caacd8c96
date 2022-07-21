@@ -1,0 +1,16 @@
+package baekjoon;
+
+import java.util.*;
+
+public class lotto {
+
+	public static void main(String[] args) {
+		int lotto = (int) (Math.random() * 45 + 1);
+
+		for (int i = 1; i < 6; i++) {
+			System.out.print(lotto);
+
+		}
+	}
+
+}
